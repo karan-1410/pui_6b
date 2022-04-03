@@ -1,0 +1,203 @@
+
+
+.t1 {
+    color: #FFF;
+    font-family: Verdana;
+    margin-top: 125px;
+    margin-left: 190px;
+    font-weight: 500;
+    font-size:40px ; 
+    width: 500px;  
+}
+
+.p1 {
+    color: #FFF;
+    font-family: Verdana;
+    margin-left: 190px;
+    width: 450px;
+}
+
+.body{
+    background-image: url('background_image.jpeg');
+    background-size: 99.9%
+}
+
+.button {
+    background-color: #EAD6D6; /* pink */
+    border: none;
+    color: rgb(0, 0, 0);
+    opacity:60%;
+    padding: 20px;
+    text-align: center;
+    font-family: verdana;
+    text-decoration: none; 
+    font-size: 20px;
+    margin-top:-160px;
+    margin-right:250px;
+    border-radius: 12px;
+    cursor: pointer;
+    float: right
+  }
+
+  .button2 {
+    background-color: #EAD6D6; /* pink */
+    border: none;
+    width: 177px;
+    color: rgb(0, 0, 0);
+    opacity:60%;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana;
+    text-decoration: none; 
+    font-size: 20px;
+    margin-top:-90px;
+    margin-right:250px;
+    border-radius: 12px;
+    cursor: pointer;
+    float: right
+  }
+
+.background2{
+    background-image: url('background2.jpg');
+}
+
+.topnav{
+    float:center;
+    text-align: center;
+    font-size:50px;
+    font-family: verdana;
+    color: white;
+    margin-top:50px;
+}
+
+.topnav a {
+    float:center;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+img.resize {
+    width:1.5%;
+    height:1.5%;
+  }
+
+.t2{
+    font-family: Verdana;
+    color:#FFF;
+    font-size:45px;
+    margin-top:50px;
+    margin-left: 80px;
+    font-weight: 500;
+}
+
+.card{
+    margin-left:85px;
+    
+}
+.button3 {
+    background-color: #b0b0b073; /* grey */
+    border: none;
+    width: 380px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana;
+    text-decoration: none; 
+    font-size: 25px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  .card2{
+    margin-top:-550px;
+    margin-left:420px;
+  }
+  .card3{
+    margin-top:-550px;
+    margin-left:420px;
+  }
+
+  .background3{
+    background-image: url('background3.png');
+}
+
+.topnav2{
+    float:center;
+    text-align: center;
+    font-size:50px;
+    font-family: verdana;
+    color: white;
+    margin-top:50px;
+}
+
+.topnav2 a {
+    float:center;
+    text-align: center;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.pcard{
+    display:inline-block;
+    position:relative;
+    float: none;
+    font-family: Verdana;
+    /* text-align: center; */
+    margin-left:220px;
+    margin-top:90px;
+    width:60%;
+    background-color:#bbbbbb38 ;
+    padding: 50px;
+    border-radius: 30px
+    
+}
+
+.infocart{
+  width:100%;
+  float:left;
+  margin-top: -60px;
+}
+
+
+.info{
+    width:450px;
+    float:right;
+}
+
+#pinfo{
+  text-align: justify;
+}
+
+.navigation ul {
+  margin: 10;
+  padding: 0;
+  text-align: center;
+  list-style: none
+}
+
+.navigation li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+.navbutton {
+  background-color: #79787821; /* grey */
+  border: none;
+  width: 300px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  font-family: Verdana;
+  text-decoration: none; 
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+

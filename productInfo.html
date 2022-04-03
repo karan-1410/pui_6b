@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product pages</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" media="all" type="text/css" href="styles.css" />
+      </head>
+
+      <body class="background3">
+        <div class="topnav2">
+            <a href="index.html">Health Bowls</a>
+            <a href="index.html">Protein Powders</a>
+            <a href="index.html">Smoothies</a>
+            <a href="index.html">
+                <img src="blacksearch.png" alt="search icon" class="resize">
+            </a>
+            <a href="index.html">
+                <img src="blackuser.png" alt="User Icon" class="resize"> 
+            </a>
+            <a href="Cart.html">
+                <img src="blackcart.png" alt="Shopping Cart" class="resize">    
+                <span id= "cartNum"></span>
+            </a>  
+        </div>
+        <div class="pcard" class="pback">
+            <img src="strawberrybanana.png" style="float: left; width:44%" >
+            <div class = "info" > 
+                <h4 style="text-align:center;font-weight:550">Strawberry Banana</h4>
+                <p1 style="text-align:left;font-size:12px;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p1>
+                <nav class="navigation">
+                <ul>
+                    <li>Ratings & Reviews</li>
+                    <li>Ingredients</li>
+                    <li>
+                        <label for="subscription">Choose a Subscription</label>
+                        <select id ="priceselect" onchange="pricechange()" class = "navbutton" name="subscription">
+                            <option value = "150">Daily </option>
+                            <option value = "100">Weekly </option>
+                            <option value = "75">Monthly </option>
+                        </select>
+                        <h4>$<span id = "price">150</span>/month</h4>
+                    </li>
+                    <li>
+                        <button class = "navbutton" onclick="AddCart()">Add to Cart</button>
+                    </li>
+                </ul>
+            </nav>
+
+            </div>
+
+        </div>
+
+
+      </body>
