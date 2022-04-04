@@ -38,7 +38,9 @@ function AddCart(){
 }
 
 window.onload = function() {
-    cart =JSON.parse(localStorage.getItem("CART"));
+    if (localStorage.CART)
+    {cart =JSON.parse(localStorage.getItem("CART"));
+    
     var container = document.getElementById("cart"); 
     console.log(cart);
     for (i=0;i< cart.length; i++){
@@ -51,6 +53,7 @@ window.onload = function() {
         </div>
         </div>`
         container.insertAdjacentHTML("afterend",y)
+    }
     }
 }
 
